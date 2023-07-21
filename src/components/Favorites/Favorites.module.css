@@ -1,0 +1,57 @@
+.cards_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.new_label {
+    background-color: purple;
+   border-radius: 10px;
+   color: #0FFF50;      
+   min-width: 15%;
+   height: 33px;
+   font-size: 24px;
+}
+
+.sort_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #0FFF50;
+    border-radius: 10px;
+    background-color: purple;
+    color: #0FFF50;
+    min-width: 15%;
+    height: 33px;
+    font-size: 24px;
+    position: absolute;
+    left: 210px;
+    top: 120px;
+    
+}
+
+.sort_div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #0FFF50;
+    border-radius: 10px;
+    background-color: purple;
+    color: #0FFF50;
+    min-width: 15%;
+    height: 33px;
+    font-size: 24px;
+    position: absolute;
+    right: 210px;
+    top: 120px;
+}

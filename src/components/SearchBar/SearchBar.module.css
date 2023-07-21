@@ -1,0 +1,30 @@
+.searchbar_input {
+      background-color: purple;
+      border-radius: 10px;
+      color: #0FFF50;      
+      border: 2px solid #0FFF50;
+      min-width: 15%;
+      height: 33px;
+      font-size: 24px;
+}
+
+.btn_button {
+    background: #0FFF50;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: purple;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	margin: 5px;
+	padding: 3px;
+	text-transform: uppercase;
+	
+	&:focus,
+	&:hover {
+		background: #BCBCBC;
+    }
+}

@@ -1,0 +1,48 @@
+.form_img {
+    border-radius: 100%;
+    border: 3px solid #0FFF50;
+}
+
+.form_button {
+    background: #0FFF50;
+    border-bottom: 6px inset rgba(0,0,0,.5);
+    border-left: 6px inset rgba(0,0,0,.5);
+    border-right: 6px inset rgba(255,255,255,.5);
+    border-top: 6px inset rgba(255,255,255,.5);
+    box-sizing: border-box;
+    color: purple;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin: 50px;
+    padding: 3px;
+    text-transform: uppercase;
+    
+    &:focus,
+    &:hover {
+        background: #BCBCBC;
+    }
+}
+
+.form_label {
+    font-family: 'Permanent Marker', cursive;
+      font-size: 40px;
+      color: #0FFF50;
+}
+
+.form_input {
+    background-color: purple;
+    border-radius: 10px;
+    color: #0FFF50;      
+    border: 2px solid #0FFF50;
+    min-width: 15%;
+    height: 40px;
+    font-size: 24px;
+
+}
+
+.error_message {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+}
